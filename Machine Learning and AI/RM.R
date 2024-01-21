@@ -6,7 +6,7 @@ y <- c(62, 85, 56, 21, 47, 17, 76, 92, 62, 58)
 # variance and analysis of covariance (although 'aov' may provide a
 # more convenient interface for these).
 #lm() method is performs linear regression.
-relationship_model <- lm(y~x)
+relationship_model <- lm(y~x) # nolint
 
 # Print Values
 print(relationship_model)
